@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yixin Li - Photography & Videography</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        'playfair': ['Playfair Display', 'serif'],
+                        'inter': ['Inter', 'sans-serif'],
+                    },
+                    colors: {
+                        'off-black': '#1a1a1a',
+                        'charcoal': '#2a2a2a',
+                        'slate': '#404040',
+                        'graphite': '#595959',
+                        'ash': '#737373',
+                        'silver': '#a3a3a3',
+                        'pearl': '#e5e5e5',
+                        'ivory': '#f5f5f5',
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-ivory font-inter text-charcoal">
+    <header class="fixed top-0 left-0 p-6 z-50 mix-blend-difference">
+        <h1 class="font-playfair text-white text-2xl hover:text-pearl transition-colors duration-300">John Doe</h1>
+    </header>
+
+    <main class="container mx-auto px-6 pt-24 pb-12">
+        <nav class="flex justify-center space-x-12 mb-12">
+            <button class="main-tab-button active relative px-6 py-3 text-2xl font-playfair text-charcoal hover:text-off-black transition-colors duration-300 after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-charcoal after:transition-all hover:after:w-full" data-tab="photography">Photography</button>
+            <button class="main-tab-button relative px-6 py-3 text-2xl font-playfair text-charcoal hover:text-off-black transition-colors duration-300 after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-charcoal after:transition-all hover:after:w-full" data-tab="videography">Videography</button>
+        </nav>
+
+        <!-- Photography Section -->
+        <div id="photography" class="tab-content">
+            <nav class="flex justify-center space-x-8 mb-16">
+                <button class="sub-tab-button active relative px-4 py-2 text-graphite hover:text-charcoal transition-colors duration-300 after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-charcoal after:transition-all hover:after:w-full" data-tab="stage">Stage</button>
+                <button class="sub-tab-button relative px-4 py-2 text-graphite hover:text-charcoal transition-colors duration-300 after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-charcoal after:transition-all hover:after:w-full" data-tab="event">Event</button>
+                <button class="sub-tab-button relative px-4 py-2 text-graphite hover:text-charcoal transition-colors duration-300 after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-charcoal after:transition-all hover:after:w-full" data-tab="portrait">Portrait</button>
+            </nav>
+
+            <!-- Stage Photos -->
+            <section id="stage" class="sub-tab-content grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="group relative aspect-auto bg-pearl rounded-lg overflow-hidden hover:shadow-2xl transition-all duration-500 ease-out hover:-translate-y-2">
+                    <img src="images/photography/stage/stage-1.JPG" alt="Stage Photography" class="object-cover w-full h-full">
+                    <div class="absolute inset-0 bg-gradient-to-b from-transparent to-charcoal opacity-0 group-hover:opacity-70 transition-opacity duration-300"></div>
+                </div>
+                <div class="group relative aspect-auto bg-pearl rounded-lg overflow-hidden hover:shadow-2xl transition-all duration-500 ease-out hover:-translate-y-2">
+                    <img src="images/photography/stage/stage-3.JPG" alt="Stage Photography" class="object-cover w-full h-full">
+                    <div class="absolute inset-0 bg-gradient-to-b from-transparent to-charcoal opacity-0 group-hover:opacity-70 transition-opacity duration-300"></div>
+                </div>
+                <div class="group relative aspect-auto bg-pearl rounded-lg overflow-hidden hover:shadow-2xl transition-all duration-500 ease-out hover:-translate-y-2">
+                    <img src="images/photography/stage/stage-4.JPG" alt="Stage Photography" class="object-cover w-full h-full">
+                    <div class="absolute inset-0 bg-gradient-to-b from-transparent to-charcoal opacity-0 group-hover:opacity-70 transition-opacity duration-300"></div>
+                </div>
+                <div class="group relative aspect-auto bg-pearl rounded-lg overflow-hidden hover:shadow-2xl transition-all duration-500 ease-out hover:-translate-y-2">
+                    <img src="images/photography/stage/stage-5.jpg" alt="Stage Photography" class="object-cover w-full h-full">
+                    <div class="absolute inset-0 bg-gradient-to-b from-transparent to-charcoal opacity-0 group-hover:opacity-70 transition-opacity duration-300"></div>
+                </div>
+                <div class="group relative aspect-auto bg-pearl rounded-lg overflow-hidden hover:shadow-2xl transition-all duration-500 ease-out hover:-translate-y-2">
+                    <img src="images/photography/stage/stage-6.jpg" alt="Stage Photography" class="object-cover w-full h-full">
+                    <div class="absolute inset-0 bg-gradient-to-b from-transparent to-charcoal opacity-0 group-hover:opacity-70 transition-opacity duration-300"></div>
+                </div>
+                <div class="group relative aspect-auto bg-pearl rounded-lg overflow-hidden hover:shadow-2xl transition-all duration-500 ease-out hover:-translate-y-2">
+                    <img src="images/photography/stage/stage-7.JPG" alt="Stage Photography" class="object-cover w-full h-full">
+                    <div class="absolute inset-0 bg-gradient-to-b from-transparent to-charcoal opacity-0 group-hover:opacity-70 transition-opacity duration-300"></div>
+                </div>
+                <div class="group relative aspect-auto bg-pearl rounded-lg overflow-hidden hover:shadow-2xl transition-all duration-500 ease-out hover:-translate-y-2">
+                    <img src="images/photography/stage/stage-8.JPG" alt="Stage Photography" class="object-cover w-full h-full">
+                    <div class="absolute inset-0 bg-gradient-to-b from-transparent to-charcoal opacity-0 group-hover:opacity-70 transition-opacity duration-300"></div>
+                </div>
+                <div class="group relative aspect-auto bg-pearl rounded-lg overflow-hidden hover:shadow-2xl transition-all duration-500 ease-out hover:-translate-y-2">
+                    <img src="images/photography/stage/stage-9.JPG" alt="Stage Photography" class="object-cover w-full h-full">
+                    <div class="absolute inset-0 bg-gradient-to-b from-transparent to-charcoal opacity-0 group-hover:opacity-70 transition-opacity duration-300"></div>
+                </div>
+                <div class="group relative aspect-auto bg-pearl rounded-lg overflow-hidden hover:shadow-2xl transition-all duration-500 ease-out hover:-translate-y-2">
+                    <img src="images/photography/stage/stage-10.JPG" alt="Stage Photography" class="object-cover w-full h-full">
+                    <div class="absolute inset-0 bg-gradient-to-b from-transparent to-charcoal opacity-0 group-hover:opacity-70 transition-opacity duration-300"></div>
+                </div>
+                <div class="group relative aspect-auto bg-pearl rounded-lg overflow-hidden hover:shadow-2xl transition-all duration-500 ease-out hover:-translate-y-2">
+                    <img src="images/photography/stage/stage-11.JPG" alt="Stage Photography" class="object-cover w-full h-full">
+                    <div class="absolute inset-0 bg-gradient-to-b from-transparent to-charcoal opacity-0 group-hover:opacity-70 transition-opacity duration-300"></div>
+                </div>
+                <div class="group relative aspect-auto bg-pearl rounded-lg overflow-hidden hover:shadow-2xl transition-all duration-500 ease-out hover:-translate-y-2">
+                    <img src="images/photography/stage/stage-13.JPG" alt="Stage Photography" class="object-cover w-full h-full">
+                    <div class="absolute inset-0 bg-gradient-to-b from-transparent to-charcoal opacity-0 group-hover:opacity-70 transition-opacity duration-300"></div>
+                </div>
+            </section>
+
+            <!-- Event Photos -->
+            <section id="event" class="sub-tab-content hidden grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="group relative aspect-auto bg-pearl rounded-lg overflow-hidden hover:shadow-2xl transition-all duration-500 ease-out hover:-translate-y-2">
+                    <img src="images/photography/event/event-1.jpg" alt="Event Photography" class="object-cover w-full h-full">
+                    <div class="absolute inset-0 bg-gradient-to-b from-transparent to-charcoal opacity-0 group-hover:opacity-70 transition-opacity duration-300"></div>
+                </div>
+                <div class="group relative aspect-auto bg-pearl rounded-lg overflow-hidden hover:shadow-2xl transition-all duration-500 ease-out hover:-translate-y-2">
+                    <img src="images/photography/event/event-2.jpg" alt="Event Photography" class="object-cover w-full h-full">
+                    <div class="absolute inset-0 bg-gradient-to-b from-transparent to-charcoal opacity-0 group-hover:opacity-70 transition-opacity duration-300"></div>
+                </div>
+                <div class="group relative aspect-auto bg-pearl rounded-lg overflow-hidden hover:shadow-2xl transition-all duration-500 ease-out hover:-translate-y-2">
+                    <img src="images/photography/event/event-3.jpg" alt="Event Photography" class="object-cover w-full h-full">
+                    <div class="absolute inset-0 bg-gradient-to-b from-transparent to-charcoal opacity-0 group-hover:opacity-70 transition-opacity duration-300"></div>
+                </div>
+                <div class="group relative aspect-auto bg-pearl rounded-lg overflow-hidden hover:shadow-2xl transition-all duration-500 ease-out hover:-translate-y-2">
+                    <img src="images/photography/event/event-4.jpg" alt="Event Photography" class="object-cover w-full h-full">
+                    <div class="absolute inset-0 bg-gradient-to-b from-transparent to-charcoal opacity-0 group-hover:opacity-70 transition-opacity duration-300"></div>
+                </div>
+                <div class="group relative aspect-auto bg-pearl rounded-lg overflow-hidden hover:shadow-2xl transition-all duration-500 ease-out hover:-translate-y-2">
+                    <img src="images/photography/event/event-5.JPG" alt="Event Photography" class="object-cover w-full h-full">
+                    <div class="absolute inset-0 bg-gradient-to-b from-transparent to-charcoal opacity-0 group-hover:opacity-70 transition-opacity duration-300"></div>
+                </div>
+                <div class="group relative aspect-auto bg-pearl rounded-lg overflow-hidden hover:shadow-2xl transition-all duration-500 ease-out hover:-translate-y-2">
+                    <img src="images/photography/event/event-6.JPG" alt="Event Photography" class="object-cover w-full h-full">
+                    <div class="absolute inset-0 bg-gradient-to-b from-transparent to-charcoal opacity-0 group-hover:opacity-70 transition-opacity duration-300"></div>
+                </div>
+            </section>
+
+            <!-- Portrait Photos -->
+            <section id="portrait" class="sub-tab-content hidden grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="group relative aspect-auto bg-pearl rounded-lg overflow-hidden hover:shadow-2xl transition-all duration-500 ease-out hover:-translate-y-2">
+                    <img src="images/photography/portrait/portrait-7.jpg" alt="Portrait Photography" class="object-cover w-full h-full">
+                    <div class="absolute inset-0 bg-gradient-to-b from-transparent to-charcoal opacity-0 group-hover:opacity-70 transition-opacity duration-300"></div>
+                </div>
+                <div class="group relative aspect-auto bg-pearl rounded-lg overflow-hidden hover:shadow-2xl transition-all duration-500 ease-out hover:-translate-y-2">
+                    <img src="images/photography/portrait/portrait-8.JPG" alt="Portrait Photography" class="object-cover w-full h-full">
+                    <div class="absolute inset-0 bg-gradient-to-b from-transparent to-charcoal opacity-0 group-hover:opacity-70 transition-opacity duration-300"></div>
+                </div>
+                <div class="group relative aspect-auto bg-pearl rounded-lg overflow-hidden hover:shadow-2xl transition-all duration-500 ease-out hover:-translate-y-2">
+                    <img src="images/photography/portrait/portrait-9.JPG" alt="Portrait Photography" class="object-cover w-full h-full">
+                    <div class="absolute inset-0 bg-gradient-to-b from-transparent to-charcoal opacity-0 group-hover:opacity-70 transition-opacity duration-300"></div>
+                </div>
+                <div class="group relative aspect-auto bg-pearl rounded-lg overflow-hidden hover:shadow-2xl transition-all duration-500 ease-out hover:-translate-y-2">
+                    <img src="images/photography/portrait/portrait-10.JPG" alt="Portrait Photography" class="object-cover w-full h-full">
+                    <div class="absolute inset-0 bg-gradient-to-b from-transparent to-charcoal opacity-0 group-hover:opacity-70 transition-opacity duration-300"></div>
+                </div>
+            </section>
+        </div>
+
+        <!-- Videography Section -->
+        <div id="videography" class="tab-content hidden">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="group relative aspect-video bg-pearl rounded-lg overflow-hidden hover:shadow-2xl transition-all duration-500 ease-out hover:-translate-y-2">
+                    <video class="w-full h-full object-cover" controls>
+                        <source src="images/videography/event shorts.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <div class="absolute inset-0 bg-gradient-to-b from-transparent to-charcoal opacity-0 group-hover:opacity-70 transition-opacity duration-300"></div>
+                </div>
+                <div class="group relative aspect-video bg-pearl rounded-lg overflow-hidden hover:shadow-2xl transition-all duration-500 ease-out hover:-translate-y-2">
+                    <video class="w-full h-full object-cover" controls>
+                        <source src="images/videography/interview.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <div class="absolute inset-0 bg-gradient-to-b from-transparent to-charcoal opacity-0 group-hover:opacity-70 transition-opacity duration-300"></div>
+                </div>
+            </div>
+        </div>
+
+        <section id="about" class="hidden max-w-4xl mx-auto">
+            <div class="grid md:grid-cols-[2fr,3fr] gap-12 items-start">
+                <div class="aspect-[3/4] bg-pearl rounded-lg overflow-hidden shadow-lg">
+                    <img src="images/profile.jpg" alt="Profile" class="w-full h-full object-cover">
+                </div>
+                <div class="space-y-8">
+                    <h2 class="font-playfair text-4xl text-off-black">About Me</h2>
+                    <div class="prose prose-slate max-w-none space-y-4">
+                        <p class="text-graphite leading-relaxed">I'm a photographer and videographer based in [Your Location]. With a passion for capturing moments that tell compelling stories, I specialize in [Your Specialties].</p>
+                        <p class="text-graphite leading-relaxed">My work has been featured in [Publications/Exhibitions] and I've collaborated with [Notable Clients/Projects].</p>
+                    </div>
+                    <div class="pt-8 border-t border-pearl">
+                        <h3 class="font-playfair text-2xl text-off-black mb-4">Get in Touch</h3>
+                        <div class="space-y-2 text-graphite">
+                            <p>Email: your.email@example.com</p>
+                            <p>Instagram: @yourhandle</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
